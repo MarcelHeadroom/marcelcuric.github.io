@@ -1,0 +1,25 @@
+/* Allgemeine Stildefinitionen */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container für die Bilder */
+.image-container {
+    display: flex; /* Flexbox verwenden */
+    justify-content: space-between; /* Abstand zwischen den Bildern */
+    padding: 20px; /* Innenabstand für den Container */
+}
+
+/* Stil für jedes Bild */
+.image {
+    width: 45%; /* Breite auf 45% festlegen, um Platz für den Abstand zu lassen */
+    max-width: 100%; /* Maximale Breite auf 100% des Containers setzen */
+    height: auto; /* Automatische Höhe beibehalten, um das Seitenverhältnis beizubehalten */
+}
+
+/* Stil für das zweite Bild */
+.image2 {
+    width: 45%; /* Breite auf 45% festlegen, um Platz für den Abstand zu lassen */
+    max-width: 100%; /* Maximale Breite auf 100% des Containers setzen */
+    height: auto; /* Automatische Höhe beibehalten, um das Seitenverhältnis beizubehalten */
+}
